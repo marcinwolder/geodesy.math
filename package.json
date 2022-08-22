@@ -1,0 +1,27 @@
+{
+  "name": "geodesy.math",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinwolder/geodesy.math.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcinwolder/geodesy.math/issues"
+  },
+  "homepage": "https://github.com/marcinwolder/geodesy.math#readme",
+  "bin": {
+    "geodesyMath": "index.js"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
