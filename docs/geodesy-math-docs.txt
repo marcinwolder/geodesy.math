@@ -1,0 +1,12 @@
+//DOCS
+  //HAUSBRANDT
+    konstruktor - tworzy obiekt klasy SimpleForm z wartościami zmiennych a,b,c,d
+    //SimpleForm - obiekt zawierający jedynie 1 kolumnę danych
+      //Metody
+        -addValues(a,b,c,d) - zwraca obiekt klasy ComplexForm zawierający 2 kolumny danych (1 dziedziczona, 2ga z argumentów metody)
+        -show() - wypisuje dane do konsoli
+                  [typ, kolumny danych, ...funkcje]
+    //ComplexForm - obiekt zawierający wiele kolumn danych
+      //Metody
+        -addValues(a,b,c,d) - dodaje kolejną kolunę danych 
+        - reszta metod jest dziedziczona z SimpleForm

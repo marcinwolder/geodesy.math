@@ -22,6 +22,7 @@
     "geodesyMath": "index.js"
   },
   "dependencies": {
+    "mathjs": "^11.0.1",
     "nodemon": "^2.0.19"
   }
 }
