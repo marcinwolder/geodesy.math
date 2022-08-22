@@ -38,6 +38,7 @@ class SimpleForm {
     });
     this.f0 = Number((this.f1 / this.f2).toFixed(3));
     this.functions = getFunctionValues(this);
+    return this;
   }
 }
 class ComplexForm extends SimpleForm {

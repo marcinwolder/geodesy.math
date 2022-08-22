@@ -4,8 +4,36 @@
     //SimpleForm - obiekt zawierający jedynie 1 kolumnę danych
       //Metody
         -addValues(a,b,c,d) - zwraca obiekt klasy ComplexForm zawierający 2 kolumny danych (1 dziedziczona, 2ga z argumentów metody)
-        -show() - wypisuje dane do konsoli
-                  [typ, kolumny danych, ...funkcje]
+        -calcFunctions() - wykonuje obliczenia wszystkich funkcji
+      //Właściwości
+        -type - typ formy
+        -a, b, c, d - array'e zawierające dane posortowane po miejsu w formie
+        -dataCollumns - array zawierający dane posorwowane po kolumnie formy
+        -f1, f2, f3 - wartości f1,f2 i f3
+        -functions - wszystkie funkcje posortowane według schematu:
+                      f1,
+                      f2,
+                      f0,
+                      simple: {
+                        lowwer: {
+                          1: value,
+                          2: value,
+                        },
+                        upper: {
+                          1: value,
+                          2: value,
+                        },
+                      },
+                      quadratic: {
+                        lowwer: {
+                          1: value,
+                          2: value,
+                        },
+                        upper: {
+                          1: value,
+                          2: value,
+                        },
+                      },
     //ComplexForm - obiekt zawierający wiele kolumn danych
       //Metody
         -addValues(a,b,c,d) - dodaje kolejną kolunę danych 
