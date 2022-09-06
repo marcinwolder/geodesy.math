@@ -1,4 +1,4 @@
-//DOCS
+//DOCS - PL
   //HAUSBRANDT
     konstruktor - tworzy obiekt klasy SimpleForm z wartościami zmiennych a,b,c,d
     //SimpleForm - obiekt zawierający jedynie 1 kolumnę danych
