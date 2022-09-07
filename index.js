@@ -12,11 +12,19 @@ const matrix = require('./mathFunctions/matrix/main');
 //   test.functions['simple']['lowwer']['2'],
 // ];
 
-const matrix1 = matrix.create([3, 5, 10], [1, 2, 15]);
+const matrix1 = matrix.create([2, 6], [4, 0], [-1, 2]);
 
 // console.log(matrix1.transpose().arrayMatrix);
 // console.log(matrix1.getNum(1, 2));
 
-const matrix2 = matrix.create([2, 5, -2], [4, -4, 5]);
+const matrix2 = matrix.create([5, 2, 1], [3, 5, 8]);
 
-console.log(matrix.add(matrix1, matrix2).arrayMatrix);
+// console.log(matrix.add(matrix1, matrix2).arrayMatrix);odwrotny
+// console.log(matrix.multiply(matrix1, matrix2).arrayMatrix);
+
+// console.log(matrix2.getNumArray());
+
+const matrix3 = matrix.create([-2, 3], [-4, 7]);
+// const matrix3 = matrix.create([2, 5, 7], [6, 3, 4], [5, -2, -3]);
+
+console.log(matrix3.inverse().arrayMatrix);

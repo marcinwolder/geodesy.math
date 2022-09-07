@@ -1,5 +1,5 @@
 const fixNumber = (numer, fix = 3) => {
-  return Number(numer.toFixed(fix));
+  return Number(Number(numer).toFixed(fix));
 };
 const infSum = (dataCollumns, calcForData, fix = 3) => {
   let sum = 0;
